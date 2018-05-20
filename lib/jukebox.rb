@@ -21,4 +21,7 @@ end
 def list(songs)
   i = 0
   songs.each do |item|
-    puts "#{i + 1}"
+    puts "#{i + 1}. #{item}"
+    i += 1
+  end
+  
