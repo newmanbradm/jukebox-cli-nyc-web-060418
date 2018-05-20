@@ -19,4 +19,6 @@ def help
 end
 
 def list(songs)
-  
+  i = 0
+  songs.each do |item|
+    puts 
