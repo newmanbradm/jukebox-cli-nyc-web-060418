@@ -20,8 +20,8 @@ end
 
 def list(songs)
   i = 0
-  songs.each do |item|
-    puts "#{i + 1}. #{item}"
+  songs.each do |song|
+    puts "#{i + 1}. #{song}"
     i += 1
   end
 end
