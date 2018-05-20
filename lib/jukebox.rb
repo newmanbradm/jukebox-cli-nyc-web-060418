@@ -31,7 +31,7 @@ def play(songs)
   input = gets.chomp
   if (1..9)to_a.include?(input.to_i)
     puts "Playing #{songs[input.to_i - 1]}"
-  elsif  
+  elsif songs.include? 
     
 end
   
