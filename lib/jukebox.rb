@@ -24,4 +24,4 @@ def list(songs)
     puts "#{i + 1}. #{item}"
     i += 1
   end
-  
+end
