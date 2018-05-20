@@ -29,6 +29,6 @@ end
 def play(songs)
   puts "Please enter a song name or number:"
   input = gets.chomp
-  
+  if (1..9).include?()
 end
   
