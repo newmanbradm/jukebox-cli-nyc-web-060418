@@ -45,5 +45,7 @@ end
 def run(songs)
   help
   input = ""
+  while input != "exit"
+  input = gets.chomp
   
   
